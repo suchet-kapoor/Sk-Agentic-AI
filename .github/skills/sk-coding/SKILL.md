@@ -7,6 +7,14 @@ description: Guides coding implementation, bug-fix work through repository-patte
 
 ### 1. Establish the change
 
+### Load Config file
+    Config_File: ".agents/config.yaml"
+    Syntax: @${key}: value
+    example @${Default_Model} : key
+    Model Name: value
+    reasoning: @${Default_Reasoning}
+    model: @${Default_Model}
+
 - Start from the most concrete anchor: a file, symbol, failing behavior, command, test, or nearby implementation.
 - Read only enough local code and applicable guidance to identify the code that controls the behavior.
 - State one testable hypothesis and one cheap check that could disprove it.
