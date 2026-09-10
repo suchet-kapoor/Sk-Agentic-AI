@@ -1,0 +1,8 @@
+Default_Model: GPT-5.6 Luna
+Default_Reasoning: none
+Default_Temperature: 0.2
+High_Research_Model: Claude Sonnet 5
+Medium_Research_Model: GPT-5.6 Sol Medium
+Max_Read_Lines_File: 350
+Max_Initial_Reads: 2
+Read_Policy:
